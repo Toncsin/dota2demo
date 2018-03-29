@@ -1,0 +1,158 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 1500px;
+    height: 960px;
+    overflow-x: hidden;
+}
+#conte{
+    height: 960px;
+    position:relative;
+    width:100%;
+    background: url(../img/bg.jpg) no-repeat center top;
+}
+.logo{
+    display: block;
+    position: absolute;
+    top:50px;
+    left:150px;
+}
+.login_content{
+    background: url(../img/login_bg.png) no-repeat;
+    width: 354px;
+    position: absolute;
+    right: 335px;
+    top: 174px;
+    line-height: 100%;
+}
+.tab{
+    width: 200px;
+    color: #00c1ff;
+    height: 58px;
+    font: normal 15px/58px "微软雅黑";
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.control-group {
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+    height: 42px;
+    margin-bottom: 10px;
+}
+.controls {
+    width: 250px;
+    height: 42px;
+    background-color: #131313;
+    border: 1px solid #222629;
+}
+.control-group input {
+    width: 184px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    color: #999999;
+    font-size: 16px;
+    line-height: 40px\9;
+    position: absolute;
+    left: 32px;
+    font-family: "微软雅黑";
+}
+.icon {
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 40px;
+    background-position: 0 center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 11px;
+    background-image: url(../img/user_icon.png);
+}
+.icon-2 {
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 40px;
+    background-position: 0 center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 11px;
+    background-image: url(../img/pas_icon.png);
+}
+.clearInput {
+    background: url(../img/close_icon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+}
+.control_rem {
+    padding-left: 35px;
+    color: #999;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.control_btn a {
+    background: #a23526;
+    width: 248px;
+    height: 40px;
+    display: block;
+    border: 1px solid #b1493b;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.creat_btn a {
+    background: #14191e;
+    width: 248px;
+    color: #999;;
+    height: 40px;
+    display: block;
+    border: 1px solid #191f23;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 auto;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.help-links {
+    width: 250px;
+    padding-top: 10px;
+    margin: 0 auto;
+    line-height: 2;
+    list-style: none;
+    color: #999999;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+.bottom {
+    position: absolute;
+    left: -340px;
+    bottom:-350px;
+    line-height: 20px;
+    color: #999999;
+    width: 600px;
+}
+.bottom .wanmei {
+    float: left;
+    margin-right: 16px;
+}
+#codeimg{
+    margin-top: -25px;
+    margin-left: 289px;
+}

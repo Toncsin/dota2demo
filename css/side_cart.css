@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+.side a{
+    text-decoration: none;
+    display:block;
+}
+.side{
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    width: 50px;
+    margin-top: -170px;
+    overflow: hidden;
+    z-index: 999;
+    color: #474747;
+    background-color:#1f1f20;
+    font-size: 12px;
+    font-family: "Microsoft YaHei",Verdana,Geneva,sans-serif,\5b8b\4f53;
+    text-align: center;
+}
+.nav-people{
+    height:25px;
+    background: url("../img/icon-people.png") no-repeat center 15px;
+    padding-top:15px;
+}
+.nav-people:hover{
+    background: url("../img/icon-people-hov.png") no-repeat center 15px;
+}
+.nav-cer{
+    height:25px;
+    background: url("../img/icon-heart.png") no-repeat center 15px;
+    padding-top:5px;
+    margin-bottom: 25px;
+}
+.nav-cer:hover{
+    background: url("../img/icon-heart-hov.png") no-repeat center 15px;
+}
+.nav-shop-btn{
+    padding: 45px 0 20px;
+    background: #f85535 url(../img/icon-shop.png) no-repeat center 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+.cartNum{
+    margin-left:13px;
+    margin-top:10px;
+    padding-top:2px;
+    color:#f85535;
+    display:block;
+    width:25px;
+    height:23px;
+    border-radius:50%;
+    background:#fff;
+}
+.nav-talk{
+    height:25px;
+    background: url("../img/icon-talk.png") no-repeat center 15px;
+    padding-top:5px;
+    margin-bottom: 15px;
+    margin-top:3px;
+}
+.nav-talk:hover{
+    background: url("../img/icon-talk-hov.png") no-repeat center 15px;
+}

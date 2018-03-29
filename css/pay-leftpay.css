@@ -1,0 +1,75 @@
+        #payCneter, #self_bg {
+         background: url(../img/pay_bg.jpg) repeat-y center top;
+         }
+	    .pay_container {
+        width: 960px;
+        margin: 0 auto;
+        position: relative;
+        min-height: 800px;
+		background:#EFEFF1;
+         content: "";
+         display: block;
+         height: 0;
+         clear: both;
+        }
+        .tit {
+		width: 200px;
+        padding: 50px 0;
+        font-size: 36px;
+        line-height: 1;
+        color: #333;
+		font-weight: normal;
+		font-family: "微软雅黑","宋体",Arial, Helvetica, sans-serif;
+		}
+		.leftArea{
+		 width: 230px;
+		}
+	   .leftArea ul li a span{
+	    font-size:16px;
+		line-height:5px;
+		vertical-align: middle;
+		display: inline-block; 
+		width: 64px;
+		height: 21px;
+		margin:20px;
+	   }
+        .leftArea ul li a i{
+       background-image: url(../img/leftBar_icon.png);
+       background-repeat: no-repeat;
+       width: 30px;
+       height: 30px;
+       display: inline-block;
+       margin-right: 2px;
+        }
+	   .leftArea ul li a{
+		  font-size:15px;
+		  color: #333;
+		}
+        .leftArea  li:hover a{
+		color:#359be0;
+		}
+
+	   .payLeftBar li .payBar2 i{
+		background-position: -30px -60px;
+		}
+       .payLeftBar li:hover .payBar2 i{
+	    background-position: 0px -60px;
+	   }
+       	.payLeftBar li .payBar3 i{
+		background-position: -30px -120px;
+		}
+       .payLeftBar li:hover .payBar3 i{
+	    background-position: 0px -120px;
+	   }
+	    .payLeftBar li .payBar4 i{
+		background-position: -30px -180px;
+		}
+       .payLeftBar li:hover .payBar4 i{
+	    background-position: 0px -180px;
+	   }
+	   	.payLeftBar li .payBar5 i{
+		background-position: -30px -240px;
+		}
+       .payLeftBar li:hover .payBar5 i{
+	    background-position: 0px -240px;
+	   }

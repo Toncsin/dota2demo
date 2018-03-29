@@ -1,0 +1,140 @@
+﻿/*首页样式（音乐馆样式）*/
+html,body,header,nav,footer,div,ul,ol,li,p,form,input,a,span,em,i,strong,b,font,img {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+}
+body{
+	font-family:"微软雅黑";
+	font-size:14px;
+}
+input{
+	outline:none;
+}
+em{
+	font-style:normal;
+}
+/*3D轮播图 开始*/
+.main_banner{
+	width:100%;
+	height:200px;
+	padding-top: 20px;
+	background: #15161A;
+}
+.main_banner_wrap{
+	width:420px;
+	height:200px;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+	background: #15161A;
+}
+.main_banner li{
+	position:absolute;
+	background:#000;
+	overflow:hidden;
+	box-shadow:0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.main_banner li img{
+	width: 240px;
+	height: 135px;
+}
+/*给每张图片初始设置不同宽高，层级，位置*/
+.main_banner li#imgCard0{
+	width:240px;
+	height:130px;
+	z-index:5;
+	left:91px;
+	top:0px;
+	opacity:1;
+	background:#333d46;
+}
+.main_banner li#imgCard1{
+	width:207px;
+	height:110px;
+	z-index:1;
+	left:214px;
+	top:20px;
+	opacity:1;
+	background:#333d46;
+}
+.main_banner li#imgCard2{/*初始在背后，透明度为0*/
+	width:160px;
+	height:90px;
+	z-index:1;
+	left:0;
+	top:60px;
+	opacity:0;
+	background:#333d46;
+}
+.main_banner li#imgCard3{/*初始在背后，透明度为0*/
+	width:160px;
+	height:90px;
+	z-index:1;
+	left:0;
+	top:60px;
+	opacity:0;
+	background:#333d46;
+}
+.main_banner li#imgCard4{
+	width:207px;
+	height:110px;
+	z-index:2;
+	left:0;
+	top:20px;
+	opacity:1;
+	background:#333d46;
+}
+.main_banner li img{
+	width:100%;
+	height:100%;
+}
+.main_banner li span{/*遮罩层*/
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	background:#000;
+	opacity:0;
+	filter:alpha(opacity=0);
+	color:#fff;
+	font-size:30px;
+	line-height:120px;
+	text-align:center;
+}
+.main_banner li p{width:100%;
+	height:50px;
+	position:absolute;
+	left:0;
+	bottom:-50px;
+	background:rgba(0,0,0,0.7);
+	color:#fff;
+	text-indent:38px;
+	line-height:50px;
+	font-size:18px;
+}
+
+/*指示器按钮*/
+.btn_list{
+	text-align:center;
+	position:relative;
+	left:0;
+	top:150px;
+	z-index:10;
+	background: #15161A;
+}
+.btn_list span{
+	width:15px;
+	height:15px;
+	display:inline-block;
+	margin:15px 5px;
+	background:#787d82;
+	border-radius:50%;
+	cursor:pointer;
+}
+.btn_list span.curr{
+	background:#FFAE00;
+}

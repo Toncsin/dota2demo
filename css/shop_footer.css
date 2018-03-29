@@ -1,0 +1,133 @@
+        *{
+            margin:0;
+            padding:0;
+        }
+        a{
+            text-decoration:none;
+        }
+        li{
+            list-style: none;
+        }
+        #container-footer{
+            display:flex;
+            justify-content:space-between;
+            width:100%;
+            flex-direction:column;
+            }
+        .top1{
+            background:#1f1f1f;
+            border-bottom: 2px solid #333333;
+            width:100%;
+            font-size: 12px;
+            height:140px;
+            position:relative;
+        }
+
+        .bottom{
+            background:#1f1f1f;
+            width:100%;
+            height:300px;
+            font-size: 14px;
+            color: #666;
+            line-height: 30px;
+            position:relative;
+        }
+        .promise,.distribution,.barter{
+            margin-top: 50px;
+            height: 40px;
+            line-height: 40px;
+            text-indent: 60px;
+            font-size: 18px;
+            color: #999;
+            vertical-align:middle;
+        }
+        .promise{
+            background:url("../img/icon-zan.png") no-repeat left;
+            position:absolute;
+            left:25%
+        }
+        .distribution{
+            background:url("../img/icon-car.png") no-repeat left;
+            position:absolute;
+            left:45%
+        }
+        .barter{
+            background:url("../img/icon-change.png") no-repeat left;
+            position:absolute;
+            left:65%
+        }
+        .wys,.sev,.about{
+            display:inline-block;
+            width:200px;
+            text-align: center;
+            margin-top:35px;
+        }
+        .gud{
+            position:absolute;
+            left:22%;
+            width:150px;
+            text-align: center;
+            margin-top:35px;
+        }
+        .wys{
+            position:absolute;
+            left:32%;
+            width:150px;
+            text-align: center;
+            margin-top:35px;
+        }
+        .sev{
+            position:absolute;
+            left:42%;
+            width:150px;
+            text-align: center;
+            margin-top:35px;
+        }
+        .about{
+            position:absolute;
+            left:52%;
+            width:150px;
+            text-align: center;
+            margin-top:35px;
+        }
+        .gud ul,.wys ul,.sev ul,.about ul{
+            vertical-align: top;
+        }
+        .phone{
+            position:absolute;
+            left:62%;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 35px;
+            margin-left:30px;
+            vertical-align:middle;
+        }
+        .phone p:first-child{
+            font-size: 26px;
+            color:#999;
+            margin-bottom: 15px;
+        }
+        .bottom a:hover{
+            text-decoration: underline;
+        }
+        .bottom ul li a{
+            font-size:14px;
+            color:#666;
+        }
+        .bottom ul li:first-child{
+            font-size:14px;
+            font-weight:700;
+            color: #999;
+            margin-bottom:20px;
+        }
+        .cus{
+            display:inline-block;
+            width: 78px;
+            height: 28px;
+            font: 14px/28px "Microsoft YaHei";
+            background: #f85535;
+            border-radius: 5px;
+            color: #FFF;
+            vertical-align: middle;
+            margin-top: 15px;
+        }

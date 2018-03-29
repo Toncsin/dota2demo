@@ -1,0 +1,160 @@
+       *{
+            margin:0;
+            padding:0;
+        }
+        a{
+            text-decoration:none;
+        }
+        .container-header{
+            display:flex;
+            font-size: 12px;
+            font-family: "Microsoft YaHei";
+        }
+        .top{
+            background:#1F1F20;
+            width: 100%;
+            height:100px;
+            position:fixed;
+            top:0;
+            border-bottom:1px solid #333333;
+        }
+        .dota2_logo{
+            display:inline;
+            position:absolute;
+            top:35%;
+            left:50%;
+            width:226px;
+            height:40px;
+            margin-top: -16px;
+            margin-left: -630px;
+        }
+        .shop_logo{
+            position: absolute;
+            left: 50%;
+            top: 35%;
+            width: 132px;
+            height: 64px;
+            margin-left: -380px;
+            margin-top: -32px;
+        }
+        .top-info{
+            position: absolute;
+            right: 50%;
+            top: 35%;
+            margin-top: -15px;
+            height: 30px;
+            line-height: 30px;
+            margin-right: -630px;
+        }
+        .user-login-btn,.order,.favorite,.cart-btn{
+            float:left;
+        }
+        .user-login-btn{
+            margin: 0 5px;
+            width: 78px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+            outline: 0;
+            background-color: #333435;
+            color: #999;
+        }
+        .user-login-btn:hover{
+            background-color: #f85535;
+            color: #fff;
+        }
+        .order{
+            background:url("../img/icon-people.png") no-repeat left;
+            float: left;
+            color: #999;
+            font-size: 14px;
+            margin: 0 16px;
+            height: 100%;
+            line-height: 30px;
+            padding-left:30px;
+        }
+        .order:hover{
+            background:url("../img/icon-people2-hov.png") no-repeat left;
+            background-size:19px;
+            color: #f85535;
+        }
+        .favorite{
+            background:url("../img/icon-heart.png") no-repeat left;
+            float: left;
+            color: #999;
+            font-size: 14px;
+            margin: 0 16px;
+            height: 100%;
+            line-height: 30px;
+            padding-left:30px;
+        }
+        .favorite:hover{
+            background:url("../img/icon-heart-hov2.png") no-repeat left;
+            color: #f85535;
+        }
+        .cart-btn{
+            background:url("../img/icon-cart.png") no-repeat left;
+            padding-left: 28px;
+            float: left;
+            color: #999;
+            font-size: 14px;
+            margin: 0 16px;
+            height: 100%;
+        }
+        .cart-btn:hover{
+            background:url("../img/icon-cart-hov.png") no-repeat left;
+            color: #f85535;
+        }
+        .nav{
+            width: 100%;
+            height: 40px;
+            margin: 0 auto;
+            line-height: 38px;
+            background-color:#1F1F20;
+            position:fixed;
+            top:91px;
+
+        }
+        .navson{
+            width:1280px;
+            margin:0 auto;
+        }
+        .navs{
+            float: left;
+            margin-right: 40px;
+            padding: 0 10px;
+            height: 38px;
+            text-align: center;
+            color: #999;
+            font-size: 16px;
+            position: relative;
+            cursor: pointer;
+        }
+        .nav a:hover{
+            color: #f85535;
+            border-bottom: 2px solid #f85535;
+        }
+        .search{
+            width:220px;
+            display:inline;
+        }
+        .search-input{
+            float: left;
+            width: 200px;
+            height: 34px;
+            line-height: 34px;
+            border: 0;
+            color: #666;
+            text-indent: 15px;
+            margin-left:200px;
+            outline: 0;
+            background:#191919
+        }
+        .search-img{
+            margin: 0;
+            width: 38px;
+            height: 38px;
+            background: #333 url(../img/icon-search.png) no-repeat center 8px;
+            padding: 0;
+            float:left;
+        }

@@ -1,0 +1,51 @@
+.bottom{
+	font-family: "Microsoft YaHei", "å¾®è½¯é›…é»‘", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    height: 160px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    z-index: 1;
+    font-size: 12px;
+    color: #959595;
+    position: relative;
+	display:flex;
+}
+.rel{
+	margin: 0 auto;
+    width: 1100px;
+    position: relative;
+}
+.fool_dl{
+	position: absolute;
+    top: 40px;
+}
+.fool_dl dt a.wanmei{
+    border-right: 1px solid #000;
+}
+.fool_dl dt a{
+    float: left;
+    padding: 0 20px;
+}
+.fool_dl dt{
+	font-weight: normal;
+}
+a{text-decoration: none;}
+img {
+    max-width: 100%;
+    border: none;
+}
+.fool_dl dt{
+    float:left;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.25;
+    max-width: 795px;
+}
+.bottom .rel .certificate{
+    position: absolute;
+    top: 85px;
+    left: 230px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}

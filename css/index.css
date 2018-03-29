@@ -1,0 +1,655 @@
+div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, textarea {
+    margin: 0;
+    padding: 0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+body {
+    min-width: 1336px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "Microsoft YaHei", "瀹嬩綋", Arial, Helvetica, sans-serif;
+    background-color: #090a0b
+}
+
+area {
+    outline: none
+}
+
+img {
+    border: 0
+}
+
+ol, ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    outline: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    zoom: 1
+}
+
+.bg-cover {
+    min-width: 1200px
+}
+.bg-cover-img {
+    background: url(../img/bg_video.jpg) center 0 no-repeat;
+}
+
+.bg-wrap1 {
+    overflow: hidden
+}
+
+
+.shade_bg {
+    background: url(../img/bg_wrap2.png) center 0 no-repeat;
+    position:absolute;
+    top: 575px;
+    width: 100%;
+    height:593px;
+    z-index: 10
+}
+
+.bg-wrap2 {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.bg-wrap2-bottom {
+    background: url(../img/bg_02.png) center bottom no-repeat;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    bottom: -252px;
+    z-index: 100;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.bg-wrap2 .cover-container {
+    position: relative;
+    z-index: 50
+}
+
+.cover-container {
+    margin: 0 auto;
+    width: 1400px
+}
+
+.video-wrap {
+    position: relative
+}
+
+.video-bg {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1920px;
+    margin-left: -960px
+}
+
+.header {
+    padding-top: 70px;
+    position: relative;
+    z-index: 50;
+}
+
+.top-nav {
+    overflow: hidden
+}
+
+.top-nav li {
+    float: left;
+    width: 98px;
+    text-align: center;
+    margin-right: 95px
+}
+
+@media screen and (max-width:1448px) {
+    .top-nav li {
+        margin-right: 70px
+    }
+
+}
+
+.top-nav li:last-child {
+    margin-right: 0
+}
+
+.top-nav li.center {
+    margin-right: 424px
+}
+
+@media screen and (max-width:1448px) {
+    .top-nav li.center {
+        margin-right: 330px
+    }
+
+}
+
+.top-nav li:hover .lel-1, .top-nav li:hover .lel-2 {
+    color: #e1c076
+}
+
+.top-nav li .lel-1 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #a69e99;
+    transition: color .5s
+}
+
+.top-nav li .lel-2 {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #666;
+    transition: color .5s
+}
+
+.dota2-logo {
+    width: 252px;
+    height: 155px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -122px
+}
+
+.dota2-df {
+    text-align: center;
+}
+.dota2-df .m-df {
+    display: block;
+    margin: 110px auto 10px;
+    width: 699px;
+    height: 292px;
+    background: url(../img/dflogo.png) no-repeat;
+}
+.dota2-df .m-playvideo {
+    display: block;
+    margin: 0 auto 30px;
+    width: 80px;
+    height: 80px;
+    background: url(../img/cover20171031/videoplay.png) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.dota2-df .m-playvideo:hover {
+    opacity: 0.8;
+}
+.dota2-df .m-text {
+    font-size: 24px;
+    color: #e1c076;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+.dota2-df .m-btn {
+    height: 50px;
+    width: 304px;
+    border: 1px solid #e1c076;
+    margin: 0 auto 30px;
+    border-radius: 4px;
+    background-color: rgba(255,192,118,.2);
+    color: #e1c076;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    transition: background-color .3s;
+    letter-spacing: 3px
+}
+
+.dota2-df .m-btn:hover {
+    background-color: rgba(255,192,118,.5);
+}
+
+.dota2-player-box {
+    height: 777px;
+    position: relative
+}
+
+.dota2-player-box .new-player,
+.dota2-player-box .old-player {
+    position: absolute;
+    width: 385px;
+    height: 244px;
+    top: 220px;
+    transition: all .5s ease-out;
+    opacity: 0.6;
+}
+
+.dota2-player-box .new-player:hover,
+.dota2-player-box .old-player:hover {
+    top: 200px;
+    opacity: 1;
+}
+  
+.new-player:hover ~ .new-player-pic,
+.old-player:hover ~ .old-player-pic{
+     opacity: 1;
+}
+.new-player:hover ~ .old-player-pic{
+opacity:0;
+}
+.old-player:hover ~ .new-player-pic{
+  opacity:0;
+}
+.dota2-player-box .new-player .cover, .dota2-player-box .old-player .cover {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+
+.dota2-player-box .new-player, .dota2-player-box .new-player .cover:hover {
+    background: url(../img/cover1700505_05_small.png) no-repeat
+}
+
+@media screen and (max-width:1448px) {
+    .dota2-player-box .new-player, .dota2-player-box .new-player .cover:hover {
+        background: url(../img/cover1700505_05_small.png) no-repeat
+    }
+
+}
+
+.dota2-player-box .new-player {
+    left: 0;
+}
+
+.dota2-player-box .new-player-pic {
+    position: absolute;
+    left: 260px;
+    top: 53px;
+    height: 606px;
+    width: 796px;
+    background: url(../img/cover161129_bg_08.png) no-repeat;
+    display: block;
+    transition: all .5s ease-out;
+	opacity:0.2;
+    pointer-events: none;
+}
+
+@media screen and (max-width:1448px) {
+    .dota2-player-box .new-player-pic {
+        left: 169px;
+    }
+}
+
+.dota2-player-box .new-player-pic.bgchange {
+    opacity: 0;
+    left: 150px
+}
+
+.dota2-player-box .old-player, .dota2-player-box .old-player .cover:hover {
+    background: url(../img/cover1700505_06_small.png) no-repeat
+}
+
+@media screen and (max-width:1448px) {
+    .dota2-player-box .old-player, .dota2-player-box .old-player .cover:hover {
+        background: url(../img/cover1700505_06_small.png) no-repeat;
+        width: 338px;
+        height: 214px
+    }
+
+}
+
+.dota2-player-box .old-player {
+    right: 0
+}
+
+.dota2-player-box .old-player-pic {
+    position: absolute;
+    right: 200px;
+    top: 64px;
+    width: 767px;
+    height: 525px;
+    background: url(../img/cover161129_bg_09.png) no-repeat;
+    opacity: 0;
+    transition: .5s ease-out;
+    pointer-events: none;
+}
+
+.dota2-player-box .old-player-pic.bgchange {
+
+    right: 307px;
+}
+
+@media screen and (max-width:1448px) {
+    .dota2-player-box .old-player-pic.bgchange {
+        right: 217px;
+    }
+}
+
+
+
+
+.advert-main {
+    position: relative;
+    z-index: 2;
+}
+
+.advert-main ul {
+    height: 288px;
+    padding-top: 20px;
+    overflow: hidden
+}
+
+.advert-main li {
+    float: left;
+    height: 274px;
+    width: 387px;
+    position: relative;
+    text-align: center;
+    margin-right: 118px;
+    border-top:1px solid #1b1617;
+    box-sizing: border-box;
+    -webkit-transition: margin-top 0.6s ease;
+    -moz-transition: margin-top 0.6s ease;
+    -ms-transition: margin-top 0.6s ease;
+    -o-transition: margin-top 0.6s ease;
+    transition: margin-top 0.6s ease
+}
+
+.advert-main li:last-child {
+    margin: 0
+}
+
+.advert-main li:hover {
+    border-top:1px solid #2f232d;
+    margin-top: -20px
+}
+
+.advert-main li:hover h4 {
+    color: #fff;
+    background-color: #2f232d
+}
+
+.advert-main li:hover .cover {
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1
+}
+
+.advert-main li h4 {
+    color: #6e6e6e;
+    font-size: 20px;
+    background-color: #1b1617;
+    height: 60px;
+    line-height: 60px;
+    -webkit-transition: color 0.6s ease;
+    -moz-transition: color 0.6s ease;
+    -ms-transition: color 0.6s ease;
+    -o-transition: color 0.6s ease;
+    transition: color 0.6s ease
+}
+
+.advert-main li img {
+    width: 100%;
+    display: block
+}
+
+.advert-main li .cover {
+    height: 211px;
+    width: 385px;
+    padding-top: 1px;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 2;
+    overflow: hidden
+}
+
+.advert-main * {
+    -webkit-transition: opacity 0.6s ease;
+    -moz-transition: opacity 0.6s ease;
+    -ms-transition: opacity 0.6s ease;
+    -o-transition: opacity 0.6s ease;
+    transition: opacity 0.6s ease
+}
+
+.share-model {
+    padding: 35px 20px 20px;
+    position: relative;
+    z-index: 100
+}
+
+.share-model li {
+    float: left;
+    padding-right: 28px
+}
+
+.share-model li:last-child {
+    float: right;
+    padding-right: 0
+}
+
+.share-model .app {
+    padding: 0
+}
+
+.share-model .app .app-download {
+    background: url(../img/bg_shoplink.png) no-repeat;
+    display: block;
+    height: 45px;
+    left: 26px;
+    width: 294px;
+    position: relative;
+    top: -10px
+}
+
+.share-model .app .app-download:hover {
+    background-position: 0 -45px
+}
+
+.share-model .app .app-download.disabled {
+    background-position: 0 -90px;
+    cursor: default
+}
+
+.share-model .blank-space {
+    width: 155px;
+    padding: 0;
+    height: 30px
+}
+
+@media screen and (max-width:1448px) {
+    .share-model .blank-space {
+        width: 72px
+    }
+
+}
+
+.share-model a {
+    background: url(../img/icon-share.png?v=0705) no-repeat 0 0;
+    color: #999;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    height: 30px;
+    padding: 0 0 0 30px
+}
+
+.share-model a:hover {
+    color: #c80303
+}
+
+.share-model .service-online:hover {
+    background-position: 0 -51px
+}
+
+.share-model .question-guide {
+    background-position: 0 -600px
+}
+
+.share-model .question-guide:hover {
+    background-position: 0 -650px;
+    color: #c80303
+}
+
+.share-model .privilege-benefit {
+    background-position: 0 -200px
+}
+
+.share-model .privilege-benefit:hover {
+    background-position: 0 -250px;
+    color: #c80303
+}
+
+.share-model .link-microblogging {
+    background-position: 0 -300px
+}
+
+.share-model .link-microblogging:hover {
+    background-position: 0 -350px;
+    color: #ea0000
+}
+
+.share-model .link-wechat {
+    background-position: 0 -400px;
+    position: relative
+}
+
+.share-model .link-wechat:hover {
+    background-position: 0 -450px;
+    color: #4e9f2f
+}
+
+.share-model .link-wechat .wechat-tip {
+    display: none;
+    left: -64px;
+    position: absolute;
+    top: -161px
+}
+
+.share-model .link-wechat:hover .wechat-tip {
+    display: block
+}
+
+.share-model .link-forum {
+    background-position: 0 -500px
+}
+
+.share-model .link-forum:hover {
+    background-position: 0 -550px;
+    color: #0e89ac
+}
+
+.share-model .link-microblogging, .share-model .link-wechat, .share-model .link-forum {
+    padding: 0 0 0 40px
+}
+
+.dota2-pop {
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 9999;
+    width: 800px;
+    height: 500px;
+    margin: -238px 0 0 -400px;
+    display: none;
+}
+.dota2-pop-close{
+    width:46px;
+    height:46px;
+    position:absolute;
+    top:-4px;
+    right:-56px;
+    cursor:pointer;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background:url(_blank);
+}
+.dota2-pop-close:before,
+.dota2-pop-close:after{
+    content:'';
+    position:absolute;
+}
+.dota2-pop-close:before{
+    width:100%;
+    height:1px;
+    background-color:#b42c01;
+    left:0;
+    top:23px;
+}
+.dota2-pop-close:after{
+    height:100%;
+    width:1px;
+    background-color:#b42c01;
+    top:0;
+    left:23px;
+}
+.pop-mask{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background:rgba(0,0,0,.4);
+    display: none;
+}
+@media screen and (max-width:1448px) {
+    .bg-cover {
+        min-width: 1200px
+    }
+
+    .cover-container {
+        width: 1200px
+    }
+
+    .advert-main li {
+        margin-right: 90px;
+        height: 250px;
+        width: 340px
+    }
+
+    .advert-main li h4 {
+        font-size: 20px;
+        height: 61px;
+        line-height: 60px
+    }
+
+    .advert-main li .cover {
+        top: 61px;
+        width: 338px;
+        height: 185px
+    }
+
+}
+.foottt{
+ width:100%;
+ height:auto;
+}

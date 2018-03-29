@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/shop_header.css">
+    <link rel="stylesheet" href="../css/shop_footer.css">
+    <link rel="icon" href="../img/favicon.png">
+</head>
+<body>
+<div style="height:135px;">
+    <header id="header"></header>
+</div>
+    <div class="cart_top">
+        <div class="cart_list">
+            <a href="#">首页</a><span>&nbsp>&nbsp</span>
+            <a href="#">我的购物车</a>
+        </div>
+    </div>
+    <div id="shopping-cart">
+        <!--2.2 内容块-->
+        <div id="box">
+            <!--2.2.1 内容-->
+            <div id="content-box">
+                <div class="imfor-top">
+                    <div class="check-top">
+                        <img src="../img/cart/product_0.png" alt="">
+                        全选
+                    </div>
+                    <div class="product-top">商品</div>
+                    <div class="price-top">单价(元)</div>
+                    <div class="num-top">数量</div>
+                    <div class="total-top">金额</div>
+                    <div class="del-top">操作</div>
+                </div>
+                <div id="content-box-body">
+                   <!-- 1、商品1
+                    <div class="imfor">
+                        <div class="check">
+                            <img src="../img/cart/product_0.png" alt="">
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="../img/product/sm/584b5678Nbc9f1e70.jpg">
+                            </a>
+                            <span class="desc">
+                  <a href="#">联想(ThinkPad)轻薄系列E470c(20H3A000CD)14英寸笔记本电脑(i5-6200U 4G 500G 2G独显 Win10)黑色</a>
+                </span>
+                            <p class="col">
+                                <span>规格：</span>
+                                <span class="color-desc">【E470C-2017新】i5 4G 500G  </span>
+                            </p>
+                        </div>
+                        <div class="price">
+                            <p>
+                                <b>￥</b>3998.00
+                            </p>
+                        </div>
+                        <div class="num">
+                            <span class="reduce">&nbsp;-&nbsp;</span>
+                            <input type="text" value="1">
+                            <span class="add">&nbsp;+&nbsp;</span>
+                        </div>
+                        <div class="total-price">
+                            <span>￥</span>
+                            <span>3998</span>
+                        </div>
+                        <div class="del">
+                            <a href="#">删除</a>
+                        </div>
+                    </div>
+                    2、商品2
+                    <div class="imfor">
+                        <div class="check">
+                            <img src="../img/cart/product_0.png" alt="">
+                        </div>
+                        <div class="product">
+                            <a href="#">
+                                <img src="img/product/sm/584b5678Nbc9f1e70.jpg">
+                            </a>
+                            <span class="desc">
+                  <a href="#">联想(ThinkPad)轻薄系列E470c(20H3A000CD)14英寸笔记本电脑(i5-6200U 4G 500G 2G独显 Win10)黑色</a>
+                </span>
+                            <p class="col">
+                                <span>规格：</span>
+                                <span class="color-desc">【E470C-2017新】i5 4G 500G  </span>
+                            </p>
+                        </div>
+                        <div class="price">
+                            <p>
+                                <b>￥</b>3998.00
+                            </p>
+                        </div>
+                        <div class="num">
+                            <span class="reduce">&nbsp;-&nbsp;</span>
+                            <input type="text" value="1">
+                            <span class="add">&nbsp;+&nbsp;</span>
+                        </div>
+                        <div class="total-price">
+                            <span>￥</span>
+                            <span>3998</span>
+                        </div>
+                        <div class="del">
+                            <a href="#">删除</a>
+                        </div>
+                    </div>
+                    3、商品。。。-->
+                </div>
+            </div>
+            <!--2.2.2 计算-->
+            <div class="foot">
+                <div class="base">
+                    <div class="all">
+              <span>
+                <img src="../img/cart/product_0.png" alt="">
+              </span>
+                        全选
+                    </div>
+                    <a href="#">删除</a>
+                </div>
+                <div class="go-price">
+                    <div class="foot-selected">已选<span class="totalOne color">0</span>件商品</div>
+                    <div class="foot-tol">
+                        <span>合计(不含运费)：</span>
+                        <span class="foot-price">0.00</span>
+                        <span class="foot-desc">元</span>
+                    </div>
+                    <div class="foot-cash">去结算</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div style="height:443px;">
+    <footer id="footer"></footer>
+</div>
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/shop_footer.js"></script>
+    <script src="../js/shop_header.js"></script>
+</body>
+</html>

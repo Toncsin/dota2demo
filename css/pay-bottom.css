@@ -1,0 +1,18 @@
+	.bottom{
+    position: relative;
+    height: 140px;
+    width: 100%;
+    line-height: 20px;
+    background: #1a1a1b;
+	}
+     .bottom .weibu {
+    height: 80px;
+    padding-top: 40px;
+	margin-left:250px;
+    position: relative;
+    }
+	.banquan{
+	  position: absolute;
+	  left:150px;
+	  top:37px;
+	}

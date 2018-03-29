@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+	</style>
+    <title>《Data2》充值中心-完美世界</title>
+    <link rel="stylesheet" href="../css/pay-head.css">
+	<link rel="stylesheet" href="../css/pay-leftpay.css">
+	<link rel="stylesheet" href="../css/pay-pay.css">
+	<link rel="stylesheet" href="../css/pay-bottom.css">
+    <link rel="icon" href="../img/favicon.png">
+</head>
+<body>
+<div class="bg" id="payCneter">
+<!--头部-->
+<div class="heads">
+    <a href="" class="logo">
+        <img src="../img/dota2.home.log.png" alt="">
+    </a>
+    <a href="" class="chonzhi">游戏充值</a>
+    <a href="" class="kefu">客服支持</a>
+    <a href="login.html" class="denglu">登录</a>
+</div>
+<!--充值中心-->
+    <div class="pay_container clearfix">
+<div class="leftArea">
+    <h3 class="tit">充值中心</h3>
+    <ul class="payLeftBar">
+        <li>
+            <a href="" class="payBar1">
+                <i></i>
+                <span style="color:#359be0">我要充值</span>
+                <em></em>
+            </a>
+        </li>
+        <li >
+            <a href=""class="payBar2">
+			 <i></i>
+             <span>常见问题</span>
+             <em></em>
+			</a>
+        </li>
+        <li >
+            <a href="" class="payBar3">
+			 <i></i>
+             <span>充值记录</span>
+             <em></em>
+			</a>
+        </li>
+        <li >
+             <a href="" class="payBar4">
+			 <i></i>
+             <span>消费记录</span>
+             <em></em>
+			</a>
+        </li>
+        <li >
+            <a href="" class="payBar5">
+			 <i></i>
+             <span style="width: 120px;">找回完美通行证</span>
+             <em></em>
+			</a>
+        </li>
+    </ul>
+</div>
+      <!--充值地点-->
+<div class="account_box">
+    <div class="account_item">
+	  <span class="account_t">完美通行证账号:</span>
+	  <input type="text" class="inp_long" placeholder="完美通行证账号">
+	</div>
+	<div class="account_item">
+	<span class="account_t">确认账号:</span>
+	<input type="text" class="inp_long" placeholder="再次输入你的完美通行证">
+	<div class="account_msg">
+	 "请务必确认完美通行证为DOTA2账号绑定的，且输入无误。
+	 <a href="">忘记绑定的完美通行证？</a>
+	</div>
+    <div>
+	 <span class="account_t">充值方式:</span>
+	 <span class="dBox">
+	  <em>支付宝</em>
+	  <em>网上银行</em>
+	  <em>完美一卡通</em>
+	  <em>微信</em>
+	 <div class="pay_select">
+	  <em>
+	    <span>更多方式</span>
+	    <i class="darrow"></i>
+	  </em>
+	 </div>
+	 </span>
+        <a href="" class="pay_help">充值帮助？</a>
+	</div>
+        <div class="account_item">
+            <span class="account_t">重置刀币数量:</span>
+            <span class="dBox">
+                <em>600</em>
+                <em>1500</em>
+                <em>6000</em>
+                <em>10000</em>
+                <input type="text" class="inp_dmoney" placeholder="其他"
+                       onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"
+                       onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'0')}else{this.value=this.value.replace(/\D/g,'')}"
+                >
+            </span>
+            <div class="account_money_msg">100刀币=1元；充值数量必须为100的倍数，最上限5000000。</div>
+        </div>
+        <div class="account_item">
+            <span class="account_t"> 应付金额:</span>
+            <span class="grossPrice"><em class="chargeamountshow">0</em>元</span>
+        </div>
+        <div class="pay_btn">
+            <a href="" class="recharge">立即重置</a>
+
+        </div>
+        <div class="wenxin">
+            <i></i>
+            <span class="tips">温馨提示</span>
+            <br>
+            1. 您在充值成功后，此次充值金额可能会需要一段时间才会出现在您账号中，请您不要担心，这是正常现象。
+            <br>
+            2. 为减少诈骗以及盗刷等情况的发生，在DOTA2游戏里商城购买的物品，一周以内无法交易。
+        </div>
+       </div>
+</div>
+</div>
+<!--尾页-->
+ <div class="bottom">
+	<div class="weibu">
+      <a class="wanmei" href="#" target="_blank">
+	     <img src="../img/bottom_logo.png" alt="">
+	  </a>	
+	  <p class="banquan">完美世界（北京）网络技术有限公司 版权所有
+	      <br>Copyright © 2004-2017 Perfect World Co.,Ltd.All rights reserved.s
+	   </p>
+	</div>
+  </div>
+</div>
+</body>
+</html>
