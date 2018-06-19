@@ -78,7 +78,7 @@ CREATE TABLE dota_shop_cart(
 	user_id		SMALLINT,
 	count		SMALLINT,
 	is_checked      TINYINT
-)
+);
                             ##########商品数据##########
   INSERT INTO dota_shop_pic VALUES(
  null,1,"DOTA2 - 痛苦女王 粘土人手办","GOODSMILE制作，可摆多种超萌姿势，内含Ti7纯正宝瓶和多种配件","product/1-small1.jpg","product/1-mid1.jpg","product/1-big1.jpg","product/1-bg.jpg",298.00);
